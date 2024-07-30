@@ -8,24 +8,25 @@
 import SwiftUI
 
 struct questionthree: View {
+    @State private var responsder = ""
     var body: some View {
             VStack {
                 Text("Pick an accessory!")
                 
                 Button("Hat") {
-                    response = "HAT"
+                    responder = "HAT"
                 }
                 
                 Button("Sprout") {
-                    response = "SPROUT"
+                    responder = "SPROUT"
                 }
                 
                 Button("Frog") {
-                    response = "frog"
+                    responder = "frog"
                 }
                 
                 Button("Fish") {
-                    response = "fish"
+                    responder = "fish"
                 }
         }
     }
